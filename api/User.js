@@ -94,7 +94,8 @@ router.post('/signup', async (req, res) => {
 });
 
 const sendVerificationEmail = ({ _id, email }, res) => {
-    const currentUrl = "https://wattsmysplit-backend.onrender.com/";
+    const currentUrl = "https://whattsmysplit-backend.onrender.com//";
+    // const currentUrl = "https://wattsmysplit-backend.onrender.com/";
     const uniqueString = uuidv4() + _id;
 
     const mailOptions = {
